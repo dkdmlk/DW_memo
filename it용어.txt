@@ -6,3 +6,5 @@ static ip :고정 아이피가
 
 ip:인터넷을 사용하기 위한 주소
 (ex:고속도로 통행권)
+spring boot
+조사
