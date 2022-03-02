@@ -1,0 +1,11 @@
+
+1.명사
+
+2. 복합명사일 때
+    (카멜표기법)
+    int userInformation
+
+3. 데이터 타입이 bollean형일 때
+    변수이름 앞에 is + (명사) 엄
+    ex) isLogin (로그인 여부)
+        isMeal(식사여부) - true, false
