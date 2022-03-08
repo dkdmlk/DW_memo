@@ -18,3 +18,6 @@ cd : 폴더 접속
 cd .. : 뒤로가기
 pwd : 현재경로확인
 clear : 명령어 내용 삭제
+
+IT 용어
+CDN(Content Delivery netowrk) : 거리가 먼곳을 가까운 지사에서 사용
