@@ -24,3 +24,34 @@ CDN(Content Delivery netowrk) : 지리적 제약없이 전 서계 사용자에�
 ->거리가 먼곳을 가까운 지사에서 사용
 -인스타그램,페이스북
 글로벌로 진출하고자 하는 회사는 무조건 사용해야하는 기술
+
+json :
+데이터를 전송할 때 많이 사용되는 경량의 DATA 교환 형식
+장점 :
+    1. 문서화를 할 수 있다.
+    2. 재사용 가능.
+
+DATA 형식
+1. 중괄호
+2. key(중복 x), value(중복 o) 구성
+3. value(문자형, 정수형, 논리형, 배열, json...)
+ex)
+emp = {
+    empno : 7369,
+    ename : "SMITH",
+    mgr : [7902, 7370]
+}
+//SMITH 사수 직업과 급여를 알고 싶다.
+emp = {
+    empno : 7369,
+    ename : "SMITH",
+    mgr : [{
+        empno:7902,
+        sal:3000
+        job:"CRERK"
+    }, {
+        empno:7370,
+        sal:5000
+        job:"CRERk"
+    }]
+}
