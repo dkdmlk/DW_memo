@@ -75,18 +75,24 @@ super 부모
 
     json
 HTML --> Server
+
+HTTP(Huper Text TRansfer protocol)
+HYper Text를 전송하겠다.
+
 HTTP(하이퍼 텍스트 트랜스폴 프로토콜)
         H     T     전송    약속
 :HT를 전송하는 약속(규격)
 
 HTTPS = HTTP + S(security:보안)
 
-HTTP 기능
-1. Get : select(public)
-2. post : insert(private)
-3. Delete   
-4. patch: UPDATE
+HTTP 기능 (method or function)
+1. Get : select(데이터 조회)
+2. post : insert(데이터 생성) 
+3. Delete : (데이터삭제)
+4. patch: UPDATE (데이터 일부분 수정)
 
-URL(API 라고해야함.)
+URL -> API (json을 받을 목적지)
+(Application Progrramming Interface)
+application : 프로그램(소프트웨어)
 API 어플리케이션/프로그램/인터페이스
-                        (상호작용)
+                        (상호작용!)
