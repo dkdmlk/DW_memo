@@ -72,3 +72,21 @@ super 부모
 클라우드
 컴퓨터의 리소스를 빌리다.
 사이트의 저장공간을 빌리는것.
+
+    json
+HTML --> Server
+HTTP(하이퍼 텍스트 트랜스폴 프로토콜)
+        H     T     전송    약속
+:HT를 전송하는 약속(규격)
+
+HTTPS = HTTP + S(security:보안)
+
+HTTP 기능
+1. Get : select(public)
+2. post : insert(private)
+3. Delete   
+4. patch: UPDATE
+
+URL(API 라고해야함.)
+API 어플리케이션/프로그램/인터페이스
+                        (상호작용)
