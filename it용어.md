@@ -1,0 +1,113 @@
+--- it 용어
+
+- DHCP: 아이피가 유동적으로 바뀜
+  > - ex)학교,회사,카페 등등...
+- static ip :고정 아이피가
+
+  > - ex)만든 서비스를 제공할 때
+
+- ip:인터넷을 사용하기 위한 주소
+  > - (ex:고속도로 통행권)
+
+운영체제 : 윈도우, 맥OS, 리눅스...
+
+리눅스 명령어
+
+- ls : 현재 경로 파일 및 폴더 확인
+- cd : 폴더 접속
+- cd .. : 뒤로가기
+- pwd : 현재경로확인
+- clear : 명령어 내용 삭제
+
+## IT 용어
+
+- CDN(Content Delivery netowrk) : 지리적 제약없이 전 서계 사용자에게 빠르고 안전하게 콘테츠를 전송할 수 있는 기술
+
+  > ->거리가 먼곳을 가까운 지사에서 사용
+  >
+  > > -인스타그램,페이스북
+  > >
+  > > > 글로벌로 진출하고자 하는 회사는 무조건 사용해야하는 기술
+
+- json : 데이터를 전송할 때 많이 사용되는 경량의 DATA 교환 형식
+- 장점 :
+  1. 문서화를 할 수 있다.
+  2. 재사용 가능.
+
+DATA 형식
+
+1. 중괄호
+2. key(중복 x), value(중복 o) 구성
+3. value(문자형, 정수형, 논리형, 배열, json...)
+
+```
+ex)
+emp = {
+    empno : 7369,
+    ename : "SMITH",
+    mgr : [7902, 7370]
+}
+//SMITH 사수 직업과 급여를 알고 싶다.
+emp = {
+    empno : 7369,
+    ename : "SMITH",
+    mgr : [{
+        empno:7902,
+        sal:3000
+        job:"CRERK"
+    }, {
+        empno:7370,
+        sal:5000
+        job:"CRERk"
+    }]
+}
+```
+
+- 절차지향 프로그래밍
+  > -> c, 코볼 ...
+- 객체지향 프로그래밍
+  > -> 자바, 파이썬, js, node, 리액트, c++ , c#...
+  > this 본인
+  > super 부모
+
+## 블록체인:
+
+1. 데이터베이스
+2. insert만있음.
+3. 조작이불가능
+4. 분산으로 데이터를 저장하기에 신뢰성이 높다.
+
+## 클라우드
+
+- 컴퓨터의 리소스를 빌리다.
+- 사이트의 저장공간을 빌리는것.
+
+  json
+
+HTML --> Server
+
+HTTP(Huper Text TRansfer protocol)
+
+HYper Text를 전송하겠다.
+
+HTTP(하이퍼 텍스트 트랜스폴 프로토콜)
+
+>        H     T     전송    약속
+
+:HT를 전송하는 약속(규격)
+
+HTTPS = HTTP + S(security:보안)
+
+HTTP 기능 (method or function)
+
+1. Get : select(데이터 조회)
+2. post : insert(데이터 생성)
+3. Delete : (데이터삭제)
+4. patch: UPDATE (데이터 일부분 수정)
+
+- URL -> API (json을 받을 목적지)
+  > (Application Progrramming Interface)
+- application : 프로그램(소프트웨어)
+  > API 어플리케이션/프로그램/인터페이스
+  >
+  > >                        (상호작용!)
