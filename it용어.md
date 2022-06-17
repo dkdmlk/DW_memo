@@ -13,13 +13,19 @@
 
 ## 리눅스 명령어
 
-- ls : 현재 경로 파일 및 폴더 확인
-- cd : 폴더 접속
-  > - ex) cd ..(뒤로가기), cd /폴더주소/폴더주소/(폴더 주소로 이동)
-- pwd : 현재경로확인
-- clear : 명령어 내용 삭제
-- mv : 파일이동
-  > - ex)mv ROOT.war /home/tomcat/(루트 파일을 tomcat으로 이동)
+```
+ ls : 현재 경로 파일 및 폴더 확인
+ cd : 폴더 접속
+  > ex) cd ..(뒤로가기), cd /폴더주소/폴더주소/(폴더 주소로 이동)
+ pwd : 현재경로확인
+ clear : 명령어 내용 삭제
+ mv : 파일이동
+  > ex)mv ROOT.war /home/tomcat/(루트 파일을 tomcat으로 이동)
+ rm : 파일삭제
+  > - ex) rm -rf * (폴더파일 모두(*) 강제(-rf)삭제)
+su - : 루트계정 접속
+sudo passwd root : root 비밀번호 초기 설정
+```
 
 ## IT 용어
 
